@@ -91,7 +91,40 @@
 # print(min(numbers))
 
 #15
-names = ["avi", "aoed", "roy", "noam", "yehuda"]
-for name in names:
-    if name.startswith("a"):
-        print(name)
+# names = ["avi", "aoed", "roy", "noam", "yehuda"]
+# for name in names:
+#     if name.startswith("a"):
+#         print(name)
+
+#task 16
+# numbers =[1, 2, 3, 4 ,5 ,6 ,7 ,8 ,9 ,10]
+# for number in numbers:
+#     if number % 2 == 0:
+#         print(number)
+
+#task 17
+# numbers =[1, 2, 4, 14, 18, 20, 21, 22, 23, 24]
+# count = 0
+# for number in numbers:
+#     if number > 10:
+#         count += 1
+# print(count)
+
+#task 18
+# numbers = [1, 2, 4, 14, 18, 20, 21, 22, 23, 24]
+# for number in numbers:
+#     if number % 2 == 0 and number % 3 == 0:
+#         print(number)
+
+#task 19        
+# for num in numbers:
+#     print(num ** 2)
+
+#task 20
+numbers = [-1, 2, -3, 4, -5, 6, -7, 8, -9, 10]
+positive_numbers = []
+for number in numbers:
+    if number > 0:
+        positive_numbers.append(number)     
+        
+print(positive_numbers)

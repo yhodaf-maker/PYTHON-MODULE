@@ -42,10 +42,84 @@
 
 # task =4
 
+# num = 1
+# total = 0
+# while num <= 5:
+#     total += num
+#     num += 1
+    
+# print(total)
+
+#task 5
+# num = 0
+
+# while num < 10:
+#     if num % 3 == 0:
+#         print(num)
+#     num += 1
+
+# task 6
+
+# num = input("Enter a number: ")
+
+# count = 05
+
+# while count < 5:
+#     print(num)
+#     count += 1
+    
+# task 7
+# num = input("Enter a number: ")
+# i = 1
+# while i <= int(num):
+#         print(i)
+#         i += 1
+
+#task 8
+# num = int(input("Enter a number: "))
+
+# while num != 0:
+#     print(num)
+#     num = int(input("Enter a number: "))
+
+#task 9
+# num = int(input("Enter a password: "))
+# while num != 1234:
+#     print("Wrong password")
+#     num = int(input("Enter a password: "))
+
+#task 10
+# answer = input("Continue? (y/n): ")
+
+# while answer != "n":
+#     answer = input("Continue? (y/n): ")
+
+# print("Stopped")
+
+# #task 11
+# num = 1
+
+# while num <= 10:
+#     if num % 2 == 0:
+#         print(num)
+#     num += 1
+
+#task 12
+# num = 1
+# count = 0
+
+# while num <= 20:
+#     if num % 2 == 0:
+#         count += 1
+#     num += 1
+
+# print(count)
+
+#task 13
 num = 1
 total = 0
-while num <= 5:
-    total += num
+while num <=10:
+    if num % 2 != 0:
+        total += num
     num += 1
-    
 print(total)
