@@ -115,11 +115,13 @@
 
 # print(count)
 
-#task 13
-num = 1
-total = 0
-while num <=10:
-    if num % 2 != 0:
-        total += num
-    num += 1
-print(total)
+# #task 13
+# num = 1
+# total = 0
+# while num <=10:
+#     if num % 2 != 0:
+#         total += num
+#     num += 1
+# print(total)
+
+#task 14
